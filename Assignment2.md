@@ -1,17 +1,15 @@
-class Assignment2
-{
-public static void main(String[] args)
-
-int a=1, b=2, c=3;
-if(a>b && a>c)
-{
-system.out.println(+a+ "is the largest")
+public class Assignment2 {
+    public static void main(String args[]){
+    int a=10; int b=20; int c=30;
+    {
+        System.out.println("The three numbers :" +a+" ,"+b+" ,"+c);
+        System.out.println("Largest Number:");
+        if (a>b && a>c)
+        System.out.println(a);
+        else if(b>a && b>c)
+        System.out.println(b);
+        else
+        System.out.println(c);
+    }
 }
-else if(b>c && b>a)
-{
-System.out.println(+b+ "is a largest")
-}
-else (c>a && c>b)
-{
-System.out.println(+c+ "is a largest)
 }
